@@ -16,7 +16,7 @@ int main() {
     miVariable.flotante = 3.14f;
     std::cout << "Valor flotante: " << miVariable.flotante << std::endl;
 
-    // Asignar una cadena de caracteres usando un punter
+    // Asignar una cadena de caracteres usando un punte
     miVariable.cadena = new std::string("Hola, mundo!");
     std::cout << "Valor cadena: " << *(miVariable.cadena) << std::endl;
 
