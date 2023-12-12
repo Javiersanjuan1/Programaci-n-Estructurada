@@ -20,7 +20,7 @@ int main() {
     miVariable.cadena = new std::string("Hola, mundo!");
     std::cout << "Valor cadena: " << *(miVariable.cadena) << std::endl;
 
-    // Liberar la memoria
+    // Liberar la memor
     delete miVariable.cadena;
 
     return 0;
